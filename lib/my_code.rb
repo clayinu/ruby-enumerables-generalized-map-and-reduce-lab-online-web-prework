@@ -9,7 +9,7 @@ end
 negative_array
 end
 
-def reduce(source_array)
+def reduce(source_array, starting_point=0)
   i = 0 
   negative_array = []
   while i < source_array.count do
