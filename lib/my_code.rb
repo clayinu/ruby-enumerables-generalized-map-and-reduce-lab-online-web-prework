@@ -10,11 +10,6 @@ negative_array
 end
 
 def reduce(source_array, sv=nil)
-  i = 0 
-  negative_array = []
-  while i < source_array.count do
-    negative_array << yield(source_array[i]) 
-    i += 1
-end
+  if sv = 
 negative_array
 end
