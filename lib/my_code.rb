@@ -4,7 +4,7 @@ def map(source_array)
   negative_array = []
   while i < source_array.count do
     negative_array << yield(source_array[i]) 
-
+    i += 1
 end
 negative_array
 end
