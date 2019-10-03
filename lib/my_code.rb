@@ -5,4 +5,5 @@ def map(source_array)
   while i < source_array.count do
     yield(source_array[i])
 end
+end
   map
