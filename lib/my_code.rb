@@ -3,7 +3,7 @@ def map(source_array)
   i = 0 
   negative_array = []
   while i < source_array.count do
-    yield(source_array[i]) negative_array
+    negative_array yield(source_array[i]) negative_array
 
 end
 negative_array
