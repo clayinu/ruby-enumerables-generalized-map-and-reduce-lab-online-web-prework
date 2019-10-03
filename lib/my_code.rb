@@ -6,5 +6,6 @@ def map(source_array)
     yield(source_array[i])
     source_array << 
 end
+negative_array
 end
   map
