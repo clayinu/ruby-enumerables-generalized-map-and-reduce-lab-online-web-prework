@@ -16,5 +16,5 @@ def reduce(source_array, sv=nil)
   else 
     num1 = source_array[0]
     i = 1
-negative_array
+
 end
