@@ -14,5 +14,6 @@ def reduce(source_array, sv=nil)
     num1 = sv
     i = 0 
   else 
+    num1 = array
 negative_array
 end
